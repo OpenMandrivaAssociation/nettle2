@@ -14,7 +14,7 @@ Summary:	Old version of the Nettle cryptographic library
 Name:		nettle2
 Epoch:		1
 Version:	2.7.1
-Release:	9
+Release:	10
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://www.lysator.liu.se/~nisse/nettle/
