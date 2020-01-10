@@ -65,7 +65,7 @@ This is the shared library part of the Hogweed library.
 
 %prep
 %setup -qn nettle-%{version}
-%apply_patches
+%autopatch -p1
 # Disable -ggdb3 which makes debugedit unhappy
 sed s/ggdb3/g/ -i configure
 sed 's/ecc-192.c//g' -i Makefile.in
