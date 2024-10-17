@@ -17,7 +17,7 @@ Version:	2.7.1
 Release:	10
 License:	LGPLv2+
 Group:		System/Libraries
-Url:		http://www.lysator.liu.se/~nisse/nettle/
+Url:		https://www.lysator.liu.se/~nisse/nettle/
 Source0:	http://www.lysator.liu.se/~nisse/archive/nettle-%{version}.tar.gz
 Patch0:		nettle-aarch64.patch
 Patch1:		nettle-2.7.1-remove-ecc-testsuite.patch
