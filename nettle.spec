@@ -22,6 +22,11 @@ Source0:	http://www.lysator.liu.se/~nisse/archive/nettle-%{version}.tar.gz
 Patch0:		nettle-aarch64.patch
 Patch1:		nettle-2.7.1-remove-ecc-testsuite.patch
 Patch2:		nettle-2.7.1-tmpalloc.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	recode
 BuildRequires:	texinfo
 BuildRequires:	gmp-devel
